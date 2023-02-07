@@ -22,7 +22,7 @@ S3.remove('A')
 
 
 # Union S1 and S2
-MyUnion = S1 ^ S2
+MyUnion = S1 | S2
 MyUnion = S1.union(S2)
 MyUnion = set.union(S1 ,S2)
 
@@ -44,3 +44,9 @@ MyM = S1 - S2
 # Symmetric difference /// Union(S1,S2) - Intersection(S1,S2) 
 MySD = S1 ^ S2
 # print(MySD)
+
+
+for x in S1: #S1 & S2
+    if x in S2:
+        print(x)
+
