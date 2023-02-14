@@ -23,6 +23,14 @@ Students = dict(Ali = 18, Nazanin = 20, Riza = 16, Nahid = 15)
 
 # for s in Students:
 #     print(f"{s} Average is :{Students[s]}")
-# Or
-for name, avg in Students.items():
-    print(f"{name} Average is :{avg}")
+## Or
+# for name, avg in Students.items():
+#     print(f"{name} Average is :{avg}")
+
+# P = { x:x*x for x in range(20) if x % 3 == 0 } 
+# print(P)   
+
+H = {**Students, **point1, **point1}
+print(H)
+Kay = {*Students}
+print(Kay)
