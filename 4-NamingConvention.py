@@ -4,4 +4,8 @@ FirstName = "Ali"
 
 first_name = "Maryam"
 
-print (first_name[:])
+#print (firstname)
+
+# [ start : end : stop ]
+# -x از اخر شروع میکنه اندیس رو 
+print (first_name[-5:])
